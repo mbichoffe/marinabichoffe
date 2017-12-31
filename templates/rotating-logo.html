@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+<head>
+    <!-- make the right size on cellphones -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Header</title>
+    <style>
+      .header {
+  position: absolute;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(https://preview.ibb.co/gWAR7w/tlo.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 50% 40%;
+  }
+
+  .textheadermain {
+    position: absolute;
+    top: 22vh;
+    left: 34%;
+    z-index: 10;
+    background-image: none;
+    width: 32vw;
+    height: 32vw;
+    background-size: 53%;
+    background-position: 50% 55%;
+    background-repeat: no-repeat;
+  }
+
+  .headmoon {
+    position: absolute;
+    top: 22vh;
+    left: 34%;
+    background-image: url(static/images/marina_bichoffe_wb_cut.png);
+    width: 32vw;
+    height: 32vw;
+    background-size: 29vw;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  #rotation {
+    -webkit-animation: rotation 18s infinite linear;
+  }
+
+  #rotation:hover {
+    -webkit-animation: rotation2 15s infinite linear;
+  }
+
+  @-webkit-keyframes rotation {
+    from {
+      -webkit-transform: rotate(0deg);
+    }
+    to {
+      -webkit-transform: rotate(359deg);
+    }
+  }
+  #rotation2 {
+    -webkit-animation: rotation2 15s infinite linear;
+  }
+
+  #rotation2:hover {
+    -webkit-animation: rotation 18s infinite linear;
+  }
+
+  @-webkit-keyframes rotation2 {
+    from {
+      -webkit-transform: rotate(359deg);
+    }
+    to {
+      -webkit-transform: rotate(0deg);
+    }
+  }
+  .justmoon {
+    position: absolute;
+    top: 22vh;
+    left: 34%;
+    background-image: none;
+    width: 32vw;
+    height: 32vw;
+    background-size: 29vw;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  body {
+    background-color: black;
+  }
+    </style>
+</head>
+<body> 
+    <div class="container">
+        <div class="header">
+            <div class="textheadermain">
+            </div>
+           <div class="justmoon" id="rotation">
+            </div>
+          <div class="headmoon" id="rotation2"> 
+           </div>
+    </div>
+    </div>
+
+</body>
+</html>
