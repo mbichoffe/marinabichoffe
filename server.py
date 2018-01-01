@@ -4,11 +4,11 @@ app = Flask(__name__)
 
 app.secret_key = "AIRSPEEDVELOCITYOFANUNLADENSWALLOW"
 
-@app.route("/")
+@app.route("/marina-bichoffe")
 def homepage():
     """Show (static) homepage."""
 
     return render_template("index.html")
 
 
-app.run(port=5001)
+app.run()
