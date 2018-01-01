@@ -11,4 +11,4 @@ def homepage():
     return render_template("index.html")
 
 
-app.run()
+app.run(port=5001)
