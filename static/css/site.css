@@ -204,39 +204,14 @@ body.page-template-page-fullsingle-split {
       transition-duration: 0.1s;
       border-bottom: 1px dotted #CA486d; }
 
-.split-lists .split-list {
-  width: 30%;
-  display: inline-block;
-  margin-bottom: 40px; }
-  @media (max-width: 500px) {
-    .split-lists .split-list {
-      width: 90%; } }
-  .split-lists .split-list h3 {
-    font-weight: 400;
-    text-transform: uppercase;
-    font-size: 11px;
-    line-height: 11px;
-    margin-bottom: 31px;
-    color: #848d96;
-    letter-spacing: 2px;
-    opacity: 0.5; }
-  .split-lists .split-list ul li {
-    font-size: 16px;
-    line-height: 16px;
-    margin-bottom: 12px; }
-    .split-lists .split-list ul li a {
-      color: #848d96;
-      transition-duration: 0.5s; }
-      .split-lists .split-list ul li a:hover {
-        color: #CA486d;
-        transition-duration: 0.1s; }
 
 .split-social .split-link {
   display: inline-block;
   margin-bottom: 40px; }
-  @media (max-width: 500px) {
+  @media (max-width: 800px) {
     .split-social .split-link {
-      width: 90%; } }
+      width: 90%;
+      margin: auto; } }
   .fa {
     line-height: 11px;
     letter-spacing: 16px;
