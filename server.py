@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 app.secret_key = "AIRSPEEDVELOCITYOFANUNLADENSWALLOW"
 
-@app.route("/marina-bichoffe")
+@app.route("/")
 def homepage():
     """Show (static) homepage."""
 
